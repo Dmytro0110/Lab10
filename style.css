@@ -38,11 +38,11 @@
     background-color: gray;
     grid-area: div7; 
 }
-@media(max-width:480px){
+@media only screen and (max-width: 500px) and (min-width: 100px){
     .wrapper{
         grid-gap: 3px;
         grid-template-columns: repeat(1,1fr);
-        grid-template-rows:repeat(7,1fr);
+        grid-template-rows:200px 170px 100px 100px 100px 100px 100px;
         grid-template-areas:
         "div1"
         "div2"
@@ -53,11 +53,11 @@
         "div3"
     }
 }
-@media (max-width:768px){
+@media only screen and (max-width: 750px) and (min-width: 500px){
     .wrapper{
-        grid-gap:3px;
+        grid-gap:3px; 
         grid-template-columns: repeat(2,1fr);
-        grid-template-rows:repeat(6,1fr);
+        grid-template-rows:200px 170px 100px 100px 100px 100px;
         grid-template-areas: 
         "div1 div1"
         "div2 div3"
@@ -67,9 +67,9 @@
         "div4 div4"
     }
 }  
-@media(max-width:1024px){
+@media only screen and (max-width: 950px) and (min-width: 750px){
     .wrapper{
-        grid-gap:3px;
+        grid-gap:3px; 
         grid-template-columns: repeat(3,1fr);
         grid-template-rows:200px 150px 170px 100px 100px;
         grid-template-areas:
@@ -80,7 +80,7 @@
         "div7 div7 div7"
     }
 }    
-@media(max-width:1200px){
+@media only screen and (max-width: 1200px) and (min-width: 950px){
     .wrapper{
         grid-gap:3px;
         grid-template-columns: repeat(4,1fr);
@@ -92,3 +92,5 @@
         "div6 div6 div6 div6"
         }
     }
+
+    
