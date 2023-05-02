@@ -1,0 +1,42 @@
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    flex-wrap:wrap;
+    height: fit-content;
+}
+.item1{
+    background-color: blue;
+    height: 200px;
+   width: 75%;
+}
+.item7{
+    background-color: gray;
+    height: 200px; 
+    width: 25%;
+   
+}
+.item2{
+    background-color:aquamarine;
+    height: 170px;
+    width: 25%;
+}
+.item3{
+    background-color: brown;
+    height: 170px;
+    width: 20%;
+}
+.item4{
+    background-color:yellow ;
+    height: 200px;
+    width: 30%;
+}
+.item5{
+    background-color: green;
+    height: 150px;
+    width: 45%;
+}
+.item6{
+    background-color: orange;
+    height: 100px;
+    width: 100%;
+}
